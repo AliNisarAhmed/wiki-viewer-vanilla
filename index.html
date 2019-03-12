@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WIkipedia Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/main.css" />
+</head>
+<body>
+    <div class="app">
+        <div class="nav">
+            <h1 class="title">Wikipedia Viewer</h1>
+        </div>
+        <div class="center">
+            <p>Click <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="random">here</a> to read a random article.</p>
+            <form id="search-form">
+                <input type="text" id="search-input"/>
+            </form>
+            <p>Click the icon to search</p>
+        </div>
+        <div class="results">
+            <div class="loading-icon-parent">
+                <div class="loading-icon"></div>
+            </div>
+            <!-- <div>
+                <h6>Error Loading results from wikipedia, please try again...</h6>
+            </div> -->
+            <div class="result-list">
+                <!-- <a class="result">
+                    <h3 class="result-title"></h3>
+                    <p class="result-text"></p>
+                </a> -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="./src/main.js"></script>
+</body>
+</html>
